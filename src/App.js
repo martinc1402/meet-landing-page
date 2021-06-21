@@ -1,9 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import MeetLogoSection from './components/MeetLogoSection';
 
 function App() {
   return (
     <div className="App">
+      <MeetLogoSection></MeetLogoSection>
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
