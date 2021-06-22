@@ -1,4 +1,5 @@
 import { render } from "@testing-library/react";
+import './MeetLogoSection.css';
 
 function MeetLogoSection() {
     return (
@@ -10,6 +11,6 @@ function MeetLogoSection() {
             </header>
         </div>
     );
-}
+};
 
 export default MeetLogoSection;
